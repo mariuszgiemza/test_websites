@@ -2,7 +2,7 @@
 <html lang="pl">
 
 <head>
-    <title>Strona Testowa</title>
+    <title>Strona testowa</title>
 </head>
 
 <?php
@@ -10,11 +10,13 @@ date_default_timezone_set("Europe/Warsaw");
 ?>
 
 <body>
-    <h1>Strona Testowa PHP</h1>
-    <h2>Godzina:</h2>
-    <h3><?php echo date("H:i"); ?></h3>
-    <h2>Data:</h2>
+    <h1>Strona testowa w PHP</h1>
+    <h2>Dziś jest </h2>
     <h3><?php echo date("d.m.Y"); ?></h3>
+    <h2>Godzina <?php echo date("H:i"); ?></h2>
+    <h3><?php echo date("H:i"); ?></h3>
+  
+   
 </body>
 
 </html>
