@@ -7,3 +7,6 @@ app = Flask(__name__)
 def hello_world():
     now = datetime.now()
     return f"<h1>Aktualny czas: {now.hour}:{now.minute:0{2}} {now.day}.{now.month}.{now.year}</h1>"
+
+if __name__ == "__main__":
+    app.run()
