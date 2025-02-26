@@ -9,12 +9,13 @@
 date_default_timezone_set("Europe/Warsaw");
 ?>
 
-<body>
-    <h1>Strona testowa w PHP</h1>
-    <h2>Dziś jest </h2>
-    <h3><?php echo date("d.m.Y"); ?></h3>
-    <h2>Godzina <?php echo date("H:i"); ?></h2>
-    <h3><?php echo date("H:i"); ?></h3>
+<body><br><br>
+    <h1>Strona testowa w PHP, hostowana w Microsoft Azure</h1>
+    <br><br>
+    <h3>Dziś jest <?php echo date("d.m.Y"); ?></h3>
+    <br>
+    <h3>Godzina <?php echo date("H:i"); ?></h3>
+
   
    
 </body>
